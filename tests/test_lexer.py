@@ -1,5 +1,5 @@
 import unittest
-from abrvalg.lexer import Lexer
+from Bigfoot.lexer import Lexer
 
 
 class LexerTest(unittest.TestCase):

@@ -1,7 +1,7 @@
 import unittest
-from abrvalg import ast
-from abrvalg.lexer import Lexer, TokenStream
-from abrvalg.parser import Parser
+from Bigfoot import ast
+from Bigfoot.lexer import Lexer, TokenStream
+from Bigfoot.parser import Parser
 
 
 class ParserTest(unittest.TestCase):
