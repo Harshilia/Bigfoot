@@ -7,11 +7,11 @@ AST-walking interpreter.
 from __future__ import print_function
 import operator
 from collections import namedtuple
-from abrvalg import ast
-from abrvalg.lexer import Lexer, TokenStream
-from abrvalg.parser import Parser
-from abrvalg.errors import AbrvalgSyntaxError, report_syntax_error
-from abrvalg.utils import print_ast, print_tokens, print_env
+from Bigfoot import ast
+from Bigfoot.lexer import Lexer, TokenStream
+from Bigfoot.parser import Parser
+from Bigfoot.errors import AbrvalgSyntaxError, report_syntax_error
+from Bigfoot.utils import print_ast, print_tokens, print_env
 
 
 BuiltinFunction = namedtuple('BuiltinFunction', ['params', 'body'])

@@ -5,8 +5,8 @@ Parser
 Top-down recursive descent parser.
 """
 
-from abrvalg import ast
-from abrvalg.errors import AbrvalgSyntaxError
+from Bigfoot import ast
+from Bigfoot.errors import AbrvalgSyntaxError
 
 
 class ParserError(AbrvalgSyntaxError):

@@ -5,11 +5,11 @@ Main
 Command line interface.
 """
 import argparse
-from abrvalg import __version__ as version, interpreter
+from Bigfoot import __version__ as version, interpreter
 
 
 try:
-    input = input()
+    input = raw_input
 except NameError:
     pass
 

@@ -6,8 +6,8 @@ Regular expression based lexer.
 """
 import re
 from collections import namedtuple, OrderedDict
-from abrvalg.errors import AbrvalgSyntaxError as LexerError
-from abrvalg.ttt import iteritems
+from Bigfoot.errors import AbrvalgSyntaxError as LexerError
+from Bigfoot.ttt import iteritems
 
 
 class Token(namedtuple('Token', ['name', 'value', 'line', 'column'])):
