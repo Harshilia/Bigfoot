@@ -5,10 +5,10 @@ Bigfoot is a language interpreter like Python, made in Python.
 
 The project contains:
 
-- Regular expression based lexer
-- Top-down recursive descent parser
-- AST-walking interpreter
-- REPL
+- Lexer based on Regex
+- Recursive Parser
+- Interpreter with AST-walking
+- REPL functionality
 
 Bigfoot doesn't require any third-party libraries.
 
