@@ -1,7 +1,7 @@
 Bigfoot
 =======
 
-Bigfoot is a Python-like programming language interpreter.
+Bigfoot is a language interpreter like Python, made in Python.
 
 The project contains:
 
@@ -11,6 +11,8 @@ The project contains:
 - REPL
 
 Bigfoot doesn't require any third-party libraries.
+
+However, Bigfoot still uses the standard Python compiler until I can figure out how to make one myself :)
 
 What the language looks like:
 
@@ -37,6 +39,6 @@ How to try it:
 
 .. code-block::
     
-    git clone https://github.com/akrylysov/Bigfoot.git
+    git clone https://github.com/Harshilia/Bigfoot.git
     cd Bigfoot
     python -m Bigfoot tests/factorial.bgf
